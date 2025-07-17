@@ -87,9 +87,18 @@ AgentHub/
 │   ├── cleaner_agent.py
 │   ├── sql_agent.py
 │   └── voice_agent.py
+├── tool/
+│   ├── sql_tool.py
+├── util/
+│   ├── logger.py
+├── db/
+│   ├── employeel.py        #it's an demo File
 ├── models/                 # GGUF model files here
 ├── uploads/                # Uploaded user files
 ├── app.py
+├── test_db.py
+├── test_local_llm.py
+├── test_env.py
 └── README.md
 ```
 
